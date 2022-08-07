@@ -1,0 +1,23 @@
+--2022-08-07 14:23:32--  https://raw.githubusercontent.com/github/gitignore/main/Python.gitignore
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.109.133, 185.199.110.133, 185.199.111.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.109.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3078 (3,0K) [text/plain]
+Saving to: ‘Python.gitignore’
+
+     0K ...                                                   100% 8,17M=0s
+
+2022-08-07 14:23:37 (8,17 MB/s) - ‘Python.gitignore’ saved [3078/3078]
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
