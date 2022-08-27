@@ -6,6 +6,7 @@ from .models import Project, Todo
 from .serializers import ProjectModelSerializer, TodoModelSerializer
 
 
+
 class ProjectLimitOffsetPagination(LimitOffsetPagination):
     default_limit = 10
 
