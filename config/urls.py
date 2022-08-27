@@ -17,7 +17,7 @@ from django.urls import include, path
 from rest_framework.routers import DefaultRouter
 
 from todoapp.views import ProjectModelViewSet, TodoModelViewSet
-from todoapp.views import UserModelLimitedViewSet
+from users.views import UserModelLimitedViewSet
 
 router = DefaultRouter()
 # router.register("users", UserModelViewSet)
