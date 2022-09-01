@@ -80,7 +80,7 @@ getData() {
         )
       }).catch(error => console.log(error))
 
-    axios.get('http://127.0.0.1:8000/api/todo/',{headers})
+    axios.get('http://127.0.0.1:8000/api/todo/',)
       .then(response => {
         const todos = response.data
         this.setState(
