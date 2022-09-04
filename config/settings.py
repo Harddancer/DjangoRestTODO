@@ -25,13 +25,15 @@ INSTALLED_APPS = [
     "django.contrib.contenttypes",
     "django.contrib.sessions",
     "django.contrib.messages",
-    "django.contrib.staticfiles",
     "users",
     "rest_framework",
     "rest_framework.authtoken",
     "corsheaders",
     "todoapp",
     "django_filters",
+    'django.contrib.staticfiles',
+    'drf_yasg'
+
 ]
 
 MIDDLEWARE = [
@@ -139,5 +141,6 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.SessionAuthentication',
         'rest_framework.authentication.BasicAuthentication',
         'rest_framework.authentication.TokenAuthentication',
-    ]
+    ],
+    'DEFAULT_VERSIONING_CLASS': 'rest_framework.versioning.AcceptHeaderVersioning'
 }
