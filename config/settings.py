@@ -32,6 +32,7 @@ INSTALLED_APPS = [
     "todoapp",
     "django_filters",
     'django.contrib.staticfiles',
+    'graphene_django',
     'drf_yasg'
 
 ]
@@ -97,7 +98,10 @@ AUTH_PASSWORD_VALIDATORS = [
         "NAME": "django.contrib.auth.password_validation.NumericPasswordValidator",
     },
 ]
-
+GRAPHENE = {
+    'SCHEMA': 'config.graphql.schema'
+    
+}
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
